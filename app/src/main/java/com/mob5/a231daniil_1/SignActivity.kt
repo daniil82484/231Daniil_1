@@ -17,7 +17,7 @@ class SignActivity : AppCompatActivity() {
         password = findViewById(R.id.password)
     }
 
-    fun main(view: View) {
+    fun signin() {
         if (email.text.toString().isNotEmpty() && password.text.toString().isNotEmpty())
         {
             val intent = Intent(this,MenuActivity::class.java)
@@ -34,5 +34,4 @@ class SignActivity : AppCompatActivity() {
         }
     }
 
-    fun signin(view: View) {}
 }

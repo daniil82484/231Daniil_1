@@ -1,4 +1,4 @@
-package com.mob5.a231daniil_1.ui.home
+package com.mob5.a231daniil_1.ui.profile
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,9 +8,10 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.mob5.a231daniil_1.R
-import com.mob5.a231daniil_1.databinding.FragmentHomeBinding
 
-class HomeFragment : Fragment() {
+
+class ProfileFragment : Fragment() {
+
 
 
     override fun onCreateView(
